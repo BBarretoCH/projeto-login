@@ -33,7 +33,7 @@ section#login {
     position: absolute;
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
     overflow: hidden;
 
@@ -63,7 +63,9 @@ section#login > div#form {
 
 section#login > div#form > h1 {
     text-align: center;
-    padding: 5px; 
+    margin-bottom: 10px;
+    font-size: 1.2em;
+     
 }
 
 section#login > div#form > p {
@@ -71,4 +73,13 @@ section#login > div#form > p {
     line-height: 1.4em;
     font-size: 0.9em;
     padding: 5px 0px;
+}
+
+a {
+    display: block;
+    border: 1px solid var(--cor1);
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(14, 63, 63);
 }
