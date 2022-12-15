@@ -13,13 +13,15 @@ Grandes telas: acima de 1200px
     --cor2: #5f2c82;
 }
 
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, var(--cor1), var(--cor2));
     }
     
     section#login {
-        width: 80vw;
+        width: 85vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -43,6 +45,11 @@ Grandes telas: acima de 1200px
     section#login > div#form > h1 {
         font-size: 1.5em;
     }
+    form > div.campo > input {
+        width: calc(98% - 36px);
+        height: 94%;
+        border: 1px solid var(--cor2);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -51,7 +58,8 @@ Grandes telas: acima de 1200px
     }
     
     section#login {
-        width: 990px;
+        width: 1000px;
+        height: 320px ;
     }
 
     section#login > div#imagem {
@@ -75,5 +83,10 @@ Grandes telas: acima de 1200px
         line-height: 1.4em;
         font-size: 1.1em;
         margin-bottom: 10px;
+    }
+
+    form > div.campo > input {
+        width: calc(98% - 37px);
+        height: 94%;
     }
 }
