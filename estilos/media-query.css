@@ -49,6 +49,7 @@ Grandes telas: acima de 1200px
         width: calc(98% - 36px);
         height: 94%;
         border: 1px solid var(--cor2);
+        transform: translateY(-7px);
     }
 }
 
@@ -88,5 +89,6 @@ Grandes telas: acima de 1200px
     form > div.campo > input {
         width: calc(98% - 37px);
         height: 94%;
+        transform: translateY(-7px);
     }
 }
